@@ -12,6 +12,6 @@ class AppConstants {
   // flutter run --dart-define=BACKEND_BASE_URL=https://your-api.com
   static const backendBaseUrl = String.fromEnvironment(
     "BACKEND_BASE_URL",
-    defaultValue: "https://shuwakidata.com.ng/ht-caption",
+    defaultValue: "https://caption-generator-backend-vrh1.onrender.com",
   );
 }
